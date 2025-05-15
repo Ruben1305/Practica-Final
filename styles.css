@@ -1,0 +1,46 @@
+.body {
+
+    margin: 0px;
+
+}
+
+.header {
+   
+    text-align: center;
+
+}
+
+.navbar {
+
+    background-color: rgb(158, 158, 158);
+    padding: 20px;
+    text-align: center;
+    word-spacing: 50px;
+    list-style: none;
+    
+}
+
+.nav-item {
+
+    display: inline;
+    
+}
+
+.nav-link {
+
+    color:rgb(255, 0, 0);
+
+}
+
+.nav-link:hover {
+
+    color:rgb(0, 204, 255)
+
+}
+
+.image-hero {
+
+    width: 500px;
+    
+
+}
