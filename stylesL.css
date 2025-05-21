@@ -131,8 +131,23 @@ button:hover {
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
+    width: 500px;
+    height: 500px;
 }
 
+.img img {
+    height: 450px;
+    width: 750px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+
+}
+
+.img :hover {
+
+    transform: scale(1.05);
+    
+}
 
 button {
     background-color: #007a3d;
