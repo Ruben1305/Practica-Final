@@ -140,6 +140,7 @@ button:hover {
     width: 750px;
     border-radius: 10px;
     transition: transform 0.3s ease;
+    margin-bottom: 50px;
 
 }
 

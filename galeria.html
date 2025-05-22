@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Telematium</title>
-  <link rel="stylesheet" href="stylesG.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telematium - Galería</title>
+  <link rel="stylesheet" href="stylesG.css" />
 </head>
 <body>
+
   <header>
-    <h1>La galeria del Real Betis Balompie!</h1>
-    <p>Explora les coses sobre el betis!</p>
+    <h1>La galeria del Real Betis Balompié!</h1>
+    <p>Explora les coses sobre el Betis!</p>
   </header>
 
   <nav>
@@ -17,12 +18,55 @@
     <a href="historia.html">Historia</a>
     <a href="jugadros.html">Mejores Jugadores</a>
     <a href="logros.html">Logros</a>
-    <a href="galeria.html">Galeria</a>
-</nav>
+    <a href="galeria.html">Galería</a>
+  </nav>
+
+  <main>
+    <div class="main">
+      
+      Verde y blanco es su alma,  
+      en el Villamarín resuena la pasión,  
+      cada gol, un latido que une a Sevilla,  
+      guerreros en el campo, sueños en las gradas.  
+      Betis eterno, fuerza y esperanza,  
+      más que un club, un sentimiento que nunca muere.
+
+    </div>
+
+    <div class="carousel">
+      <div class="IMG" id="IMG">
+
+        <img src="Images/betis.jpg" alt="Imagen 1">
+        <img src="Images/celebrando.jpg" alt="Imagen 2">
+        <img src="Images/Betiscoparey2022.jpg" alt="Imagen 3">
+        <img src="Images/isco.jpg" alt="Imagen 4">
+        <img src="Images/joaqui.jpg" alt="Imagen 5">
+        <img src="Images/anto.png" alt="Imagen 6">
+        <img src="Images/bartra.jpg" alt="Imagen 7">
+        <img src="Images/locelso.jpg" alt="Imagen 8">
+        <img src="Images/fabian.jpg" alt="Imagen 9">
+
+      </div>
+      <div class="carousel-buttons">
+        <button onclick="moveSlide(-1)">❮</button>
+        <button onclick="moveSlide(1)">❯</button>
+      </div>
+    </div>
+    <div class="audio">
+
+      <audio autoplay loop controls id="background-music">
+        <source src="Audios/Himno de Real Betis (Versión Original).mp3" type="audio/mpeg" />
+      </audio>
+    
+
+    </div>
+  </main>
+
 
   <footer>
     <p>© 2025 Real Betis Balompié | Web Educativa</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>

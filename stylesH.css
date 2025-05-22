@@ -9,7 +9,6 @@ body {
     color: #333;
 }
 
-
 header {
     background-color: #007a3d;
     padding: 40px;
@@ -58,6 +57,12 @@ section {
     border-radius: 10px;
     max-width: 1000px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main  {
+    margin-top: 50px;
+    text-align: center;
+
 }
 
 section h2 {
