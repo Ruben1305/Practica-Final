@@ -169,3 +169,16 @@ p {
     line-height: 1.6;
     margin-bottom: 20px;
 }
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }

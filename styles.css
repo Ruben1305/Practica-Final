@@ -1,88 +1,168 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Segoe UI", sans-serif;
-  }
-  
-  body {
-    background-color: #f5f5f5;
-    color: #043927;
-  }
-  
-  header {
-    background-color: #117a37;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-  }
-  
-  header .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-  }
-  
-  header nav a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  
-  header nav a:hover {
-    color: #fdd835;
-  }
-  
-  .hero {
-    background: url('Images/campo.jpeg');
-    color: white;
-    text-align: center;
-    padding: 6rem 2rem;
-  }
-  
-  .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-  
-  .hero p {
-    font-size: 1.2rem;
-  }
-  
-  .contenido, .logros {
-    padding: 3rem 2rem;
-    max-width: 800px;
-    margin: auto;
-  }
-  
-  .contenido h2, .logros h2 {
-    font-size: 2rem;
-    color: #117a37;
-    margin-bottom: 1rem;
-  }
-  
-  .logros ul {
-    list-style: none;
-    padding-left: 1rem;
-  }
-  
-  .logros li {
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  footer {
-    background-color: #117a37;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-  }
+/* Estilos básicos del cuerpo */
 
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #e9f4e5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+
+header {
+  background-color: #007a3d;
+  padding: 40px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.hero {
+
+  color: black;
+
+}
+
+.hero1 {
+
+  color: #007a3d;
+
+}
+
+/* Navegación */
+
+nav {
+  background-color: #004d26;
+  padding: 12px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  margin: 0 15px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #006747;
+  color: #fff;
+}
+
+/* Secciones */
+
+section {
+  
+  background-color: white;
+  padding: 40px 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 1000px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ 
+}
+
+
+
+section h2 {
+  color: #007a3d;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Imágenes */
+
+.escudo {
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.img-fluid {
+  width: 750px;
+  height: 500px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+/* Listas */
+
+ul {
+  list-style-type: disc;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  padding-left: 20px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Botones */
+
+button {
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  background-color: #007a3d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #006747;
+}
+
+/* Footer */
+
+footer {
+  padding: 20px;
+  background-color: #007a3d;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+footer a {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #f9c744;
+}
