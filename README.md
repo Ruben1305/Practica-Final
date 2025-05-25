@@ -16,3 +16,8 @@ La página está formada por los colores característicos del Real Betis, como e
 ## Decisiones de diseño y por qué
 
 La página está diseñada para tener una buena visualización tanto en móviles como en ordenadores. Los colores utilizados proporcionan un buen contraste, lo que facilita la lectura. Además, los botones en los que se puede hacer clic cambian de color en el menú de navegación, y dentro de la página o el artículo, su tamaño se ajusta para facilitar el acceso y reconocerlos mejor.
+
+## Capturas de pantalla
+
+### Inicio (Index.html)
+
