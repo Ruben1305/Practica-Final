@@ -1,3 +1,5 @@
+/* Estilos básicos del cuerpo */
+
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -6,6 +8,8 @@ body {
   padding: 0;
   color: #333;
 }
+
+/*Encabezado*/
 
 header {
   background-color: #007a3d;
@@ -23,6 +27,8 @@ header p {
   font-size: 1.2rem;
   font-weight: 300;
 }
+
+/*Navegacion*/
 
 nav {
   background-color: #004d26;
@@ -46,6 +52,8 @@ nav a.active {
   background-color: #006747;
   color: #fff;
 }
+
+/*Jugadores*/
 
 #jugadores {
   display: flex;
@@ -96,6 +104,8 @@ footer {
   color: white;
   text-align: center;
 }
+
+/* Pie de pagina */
 
 footer a {
   color: #f1f1f1;

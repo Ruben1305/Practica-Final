@@ -1,3 +1,5 @@
+/* Estilos básicos del cuerpo */
+
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -8,7 +10,9 @@ body {
 }
 
 /* Encabezado */
+
 header {
+
   background-color: #007a3d;
   padding: 40px;
   color: #fff;
@@ -77,33 +81,19 @@ section p {
   margin-bottom: 20px;
 }
 
-/* Imagen principal */
+/* Imágenes */
 
-.img-fluid {
-  width: 750px;
-  height: 500px;
-  border-radius: 10px;
+.img {
+  width: 800px;
+  height: 600px;
+  border-radius: 20px;
   margin: 20px 0;
+  object-fit: cover;
 }
 
-/* Botón */
 
-button {
-  padding: 12px 20px;
-  font-size: 1.1rem;
-  border: none;
-  border-radius: 30px;
-  background-color: #007a3d;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
 
-button:hover {
-  background-color: #006747;
-}
-
-/* Pie de página */
+/* Footer */
 
 footer {
   padding: 20px;

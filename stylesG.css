@@ -1,4 +1,5 @@
 /* Estilos básicos del cuerpo */
+
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -9,6 +10,7 @@ body {
 }
 
 /* Encabezado */
+
 header {
   background-color: #007a3d;
   padding: 40px;
